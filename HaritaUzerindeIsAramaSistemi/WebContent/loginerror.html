@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>İşBurada.com</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<style>
+body {
+	padding-top: 50px; /* Whatever the height of your navbar is; the
+                             default is 50px */
+}
+
+#map {
+	display: block;
+	height: 550px;
+}
+
+.loginbox {
+	-moz-box-shadow: 0 0 2px black;
+	-webkit-box-shadow: 0 0 2px black;
+	box-shadow: 0 0 2px black;
+	background-color: #eee;
+}
+</style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="/HaritaUzerindeIsArama/WelcomePage.jsp"> <img
+					alt="İşBurada" src="/HaritaUzerindeIsArama/images/logo.png" width="25"
+					height="25">
+				</a>
+
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#">İşBurada</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#"> <span
+							class="glyphicon glyphicon-user"></span> Üye <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/HaritaUzerindeIsArama/userhome.jsp">Giriş Yap</a></li>
+							<li><a href="/HaritaUzerindeIsArama/signupasuser.jsp">Kayıt Ol</a></li>
+
+						</ul></li>
+					<li class="dropdown active"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#"> <span
+							class="glyphicon glyphicon-user"></span> İşveren <span
+							class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li class="active"><a
+								href="/HaritaUzerindeIsArama/employerhome.jsp">Giriş Yap</a></li>
+							<li><a href="/HaritaUzerindeIsArama/signupasemployer.jsp">Kayıt
+									Ol</a></li>
+						</ul></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<br> <br> <br>
+				<div class="loginbox">
+					<br> <br>
+					<h2 class="text-center">Kullanıcı adı veya şifrenizi hatalı
+						girdiniz.</h2>
+					<br> <br> <br> <br> <br>
+					<p class="text-center">
+						Yeniden denemek için <a
+							href="http://localhost:8080/HaritaUzerindeIsArama/login.html">buraya</a>
+						tıklayınız.
+					</p>
+					<br> <br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebContent/deneme.jsp=UTF-8
+encoding//WebContent/showadvert.jsp=UTF-8
+encoding//src/com/huia/service/dao/map/MapDAOImp.java=UTF-8
+encoding//src/com/huia/service/dao/map/MapUtilities.java=UTF-8
+encoding//src/com/huia/service/dao/user/UserDAOImp.java=UTF-8
+encoding//src/com/huia/servlets/AddAdvert.java=UTF-8
+encoding//src/com/huia/servlets/ContextListener.java=UTF-8
+encoding//src/com/huia/servlets/GetReferencesInformation.java=UTF-8
+encoding//src/com/huia/servlets/UpdateAdvert.java=UTF-8
+encoding/<project>=UTF-8
